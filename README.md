@@ -14,8 +14,8 @@
 </br>
 
 <p align="center">
-  <a href="#-bibliotecas">Bibliotecas e tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layoyt">Especificações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Bibliotecas-e-tecnologias">Bibliotecas e tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Especificações">Especificações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Instalação-e-execução">Instalação e execução</a>
 </p>
 
@@ -43,7 +43,7 @@
 
 ----
 
-## Especificações
+## 🖥 Especificações
 ### Essse projeto foi desenvolvido em um computador com a seguinte configuração:
 - Sistema operacional: Ubuntu 18.04.6 LTS
 - Memória: 3,7 GiB DDR2
@@ -64,40 +64,36 @@
 
 <br />
 
-## Configurar e executar o BACKEND (nestjs-auth)
+### Configurar e executar o BACKEND (nestjs-auth)
 ### Abra um terminal (Pode ser o terminal do VsCode)
 
-<br />
-
-### Instale todas as dependências
+#### Instale todas as dependências
     $ cd nestjs-auth && npm install
 
-### Execute a build do projeto
+#### Execute a build do projeto
     $ npm run build
 
-### Executar a migration (Criação das tabelas do banco)
+#### Executar a migration (Criação das tabelas do banco)
     $ npm run typeorm migration:run -- -d dist/infrastructure/typeorm/database.providers.js
 
-### Comando para criar novas tabelas/migrations (Não obrigatório)
+#### Comando para criar novas tabelas/migrations (Não obrigatório)
     $ npm run typeorm migration:create src/infrastructure/typeorm/migrations/table-name
 
-### Execute
+#### Execute
     $ npm run start
 
 <br />
 
-## Configurar e executar o FRONTEND (nextjs-auth)
+### Configurar e executar o FRONTEND (nextjs-auth)
 ### Abra uma nova aba do terminal (Pode ser o terminal do VsCode)
 
-<br />
-
-### Instale todas as dependências
+#### Instale todas as dependências
     $ cd nextjs-auth && npm install
 
-### Execute a build do projeto
+#### Execute a build do projeto
     $ npm run build
 
-### Execute
+#### Execute
     $ npm run start
 
 ----
