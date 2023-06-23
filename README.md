@@ -21,6 +21,7 @@
 
 ## 📚 Bibliotecas e tecnologias
 
+- [Clean architecture](https://www.google.com/search?q=o+que+%C3%A9+clean+architecture) | Um padrão de desenvolvimento de software
 - [NodeJs](https://nodejs.org/) | Executa o JavaScript fora do navegador, no lado do servidor.
 - [NestJs](https://nestjs.com/) | Um framework back-end que utiliza como padrão o TypeScript.
 - [NextJs](https://nextjs.org/) | Um framework JavaScript web, baseado no React.js.
